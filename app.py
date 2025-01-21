@@ -12,7 +12,7 @@ def main():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?cs=srgb&dl=pexels-adrien-olichon-2387793.jpg&fm=jpg");
+             background-image: url("https://shorturl.at/SasOQ");
              background-attachment: fixed;
              background-size: cover
          }}
@@ -33,8 +33,6 @@ def main():
             save_tasks(task_list)
             task_input = ""
             display(task_list)
-
-    
 
     # Add a button to clear the task list
     if st.button("Clear all tasks"):
