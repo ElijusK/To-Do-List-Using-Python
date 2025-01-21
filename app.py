@@ -20,7 +20,6 @@ def main():
          """,
          unsafe_allow_html=True
      )
-
     # Load the tasks from the CSV file
     task_list = load_tasks()
 
