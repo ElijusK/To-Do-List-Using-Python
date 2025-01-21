@@ -68,7 +68,6 @@ def save_tasks(task_list):
         f.truncate(0)
         writer = csv.writer(f)
         writer.writerows([[task] for task in task_list])
-
 # Run the app
 if __name__ == "__main__":
     main()
